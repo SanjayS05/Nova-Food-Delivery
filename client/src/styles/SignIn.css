@@ -1,0 +1,110 @@
+body {
+    font-family: "Iceberg", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+  }
+  
+  .signin-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .form-section {
+    flex: 1;
+    background-color: #fff;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px;
+    padding-left: 60px;
+    position: relative;
+  }
+  
+  .form-section h2 {
+    font-family: "Iceberg", sans-serif;
+    font-size: 3rem;
+    margin: 0 0 20px 0;
+    position: relative;
+    align-self: flex-start;
+    width: 75%;
+    max-width: calc(100% - 60px);
+  }
+  
+  .form-section h2::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+  }
+  
+  .form-section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 0;
+  }
+  
+  .form-section input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .form-section input::placeholder {
+    color: red;
+  }
+  
+  .form-section button {
+    background-color: red;
+    color: #fff;
+    padding: 12px;
+    transition: transform 0.2s;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-section button:hover {
+    transform: scaleY(1.1);
+  }
+  
+  .form-section p {
+    margin: 20px 0;
+  }
+  
+  .form-section a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .form-section a:hover{
+    color: #DE1616;
+  }
+  

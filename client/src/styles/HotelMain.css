@@ -1,0 +1,111 @@
+body{
+    background-color: #1c1c1c;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DE1616;
+    padding: 10px 20px;
+    height: 60px;
+}
+
+.logo {
+    margin-top: 12px;
+    font-size: 50px;
+    color: #FAF8F1;
+    font-family: "Iceberg", sans-serif;
+}
+.restaurant-menu {
+    box-shadow:  2px -1px 22px 5px #DE1616 ;
+    margin: 30px;
+    font-family: "Iceberg", sans-serif;
+    color: white;
+    background-color: black;
+    padding: 70px;
+    border-radius: 10px;
+  }
+  .restaurant-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-image {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 40px;
+  }
+  
+  .restaurant-details {
+    flex: 1;
+    margin-bottom: 150px;
+  }
+  
+  .restaurant-details h1 {
+    border-bottom: 2px solid red;
+    font-size: 70px;
+    margin: 0;
+  }
+  
+  .restaurant-details p {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    color: red;
+    font-size: 30px;
+    margin-right: 5px;
+  }
+
+  .rating p{
+    font-size: 20px;
+  }
+  
+  .menu {
+    margin-top: 20px;
+  }
+  
+  .menu h2,
+  .menu h3 {
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+  }
+
+  .menu h2,.menu h3{
+    font-size: 50px;
+  }
+
+  
+  .menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    gap : 40px
+  }
+
+  .btn{
+    width: 100%;
+    height: 40px;
+    background-color: #DE1616;
+    font-size: 20px;
+    transition: transform 0.2s;
+    color: #FAF8F1;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .btn:hover{
+    transform: scaleY(1.2);
+  }
+  
+  

@@ -1,0 +1,176 @@
+body {
+  font-family: "Iceberg", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+}
+
+.signin-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.form-section {
+  flex: 1;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  padding-left: 60px;
+  position: relative;
+}
+
+.form-section h2 {
+  font-size: 3rem;
+  margin: 0 0 20px 0;
+  position: relative;
+  align-self: flex-start;
+  width: 75%;
+  max-width: calc(100% - 60px);
+}
+
+.form-section h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: red;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.bill-details-heading {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  position: relative;
+  align-self: flex-start;
+  width: 75%;
+  max-width: calc(100% - 60px);
+}
+
+.bill-details-heading::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: red;
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-section input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+}
+
+.form-section input::placeholder {
+  color: red;
+}
+
+.form-section button {
+  background-color: red;
+  color: #fff;
+  padding: 12px;
+  width: 520px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: darkred;
+}
+
+.form-section p {
+  margin: 10px 0;
+}
+
+.form-section a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.restaurant-info,
+.item-details,
+.bill-details {
+  margin-bottom: 10px;
+}
+
+.restaurant-info p,.restaurant-info span{
+  margin: 0;
+}
+
+.restaurant-info h3{
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.item,
+.bill-item,
+.total {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bill-item span,
+.total span {
+  width: 209px;
+}
+
+.bill-item .rate,
+.total .rate {
+  margin-left: 240px;
+}
+
+.item-details .rate {
+  margin-left: 183px;
+}
+
+.total{
+  font-size: 20px;
+}
+
+.confirmation-message {
+  background-color: rgb(55, 193, 55);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  width: 520px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}

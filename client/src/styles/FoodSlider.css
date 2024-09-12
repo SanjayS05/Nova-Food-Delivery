@@ -1,0 +1,28 @@
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }    
+}
+
+.container2 {
+    background-color: #FAF8F1;
+    position: relative;
+    max-height: 20px;
+    padding: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.food-slider{
+    display: inline-block;
+    animation: 10s slide infinite linear;
+}
+
+.food-slider img{
+    margin: 10px 20px ;
+    height: 100px;
+    width: 100px;
+}

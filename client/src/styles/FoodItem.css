@@ -1,0 +1,95 @@
+.food-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    transition: transform .2s;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    width: 350px;
+  }
+
+  .food-item:hover{
+    transform: scale(1.1);
+    box-shadow: 2px -1px 10px 5px rgba(255, 255, 255, 0.2);
+  }
+  
+  .quantity {
+    font-size: 24px;
+    color: red;
+    flex: 0 0 30px;
+    text-align: center;
+  }
+  
+  .details {
+    flex: 1;
+    padding-left: 10px;
+    color: black;
+  }
+  
+  .name {
+    font-size: 18px;
+    margin : 0;
+  }
+  
+  .price {
+    font-size: 16px;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .veg-icon {
+    font-size: 18px;
+    color: green;
+    border: 1px solid green;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+
+  .non-veg-icon {
+    font-size: 18px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .decrement, .increment {
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    transition: transform 0.2s;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+  }
+  
+  .decrement {
+    background-color: #f44336;
+  }
+  
+  .increment {
+    background-color: #4caf50;
+  }
+  
+  .decrement:hover,.increment:hover{
+    transform: scale(1.2);
+  }

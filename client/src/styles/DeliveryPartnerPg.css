@@ -1,0 +1,99 @@
+body {
+    background-color: #1c1c1c;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DE1616;
+    padding: 10px 20px;
+    height: 60px;
+}
+
+.logo {
+    margin-top: 12px;
+    font-size: 50px;
+    color: #FAF8F1;
+    font-family: "Iceberg", sans-serif;
+}
+
+.delivery-partner-info {
+    box-shadow: 2px -1px 22px 5px #DE1616;
+    margin: 30px;
+    font-family: "Iceberg", sans-serif;
+    color: white;
+    background-color: black;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.partner-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.partner-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.partner-details {
+    flex: 1;
+    text-align: left;
+    margin-bottom: 150px;
+}
+
+.partner-details h1 {
+    text-align: left;
+    padding: 0 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid red;
+    font-size: 35px;
+    margin: 0;
+}
+
+.partner-details p {
+    padding: 10px;
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+}
+
+.delivery-status {
+    margin-top: 20px;
+}
+
+.delivery-status h2 {
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    font-size: 37px;
+}
+
+.delivery-item {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 20px;
+    gap: 40px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.delivery-details p {
+    font-size: 30px;
+    margin: 0;
+}
+
+.delivery-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}

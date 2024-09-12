@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DE1616;
+    padding: 10px 20px;
+    height: 50px;
+}
+
+.logo {
+    margin-top: 12px;
+    font-size: 50px;
+    color: #FAF8F1;
+    font-family: "Iceberg", sans-serif;
+}
+
+.Restaurants {
+    text-align: left;
+    background-color: #1b1b1b;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 44px;
+    font-family: "Iceberg", sans-serif;
+    margin-bottom: 30px;
+    margin-left: 170px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    gap: 50px;
+}
+
+.card-container .card {
+    flex: 0 1 330px;
+}
+
